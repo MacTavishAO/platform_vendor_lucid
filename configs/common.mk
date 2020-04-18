@@ -32,6 +32,9 @@ PRODUCT_COPY_FILES += \
     vendor/lucid/configs/permissions/privapp-permissions-lucid-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-lucid.xml \
     vendor/lucid/configs/permissions/privapp-permissions-lucid-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-lucid.xml
 
+# Themes
+include vendor/lucid/configs/themes.mk
+
 # World APN list
 PRODUCT_COPY_FILES += \
     vendor/lucid/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
